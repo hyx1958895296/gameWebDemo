@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="header">
+    <div class="header pd_14">
       <div class="login_in_out_area">
         <div></div>
         <div>
@@ -33,23 +33,57 @@
           <span>怀旧频道</span>
           <span>开局送赵云</span>
         </div>
-
       </div>
+    </div>
+    <div class="main">
+      <div class="flex-center">
+        <div class="nav-list pd_14 flex-center">
+          <div>
+            <div class="nav" v-for="(nav, index) in navListLeft" :key="index">{{ nav.title }}</div>
+          </div>
+          <div class="flex-center nav-right">
+            <div class="mr-20 ml-5">H5小游戏</div>
+            <div class="mr-20 ml-5 position-rla">
+              <div>网页游戏</div>
+              <div class="num">25</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="under-line"></div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-
+  data() {
+    return {
+      navListLeft: [
+        { title: '资讯中心' },
+        { title: '新游戏 · 今日开服' },
+        { title: '游戏下载' },
+        { title: '发号平台' },
+        { title: '有料社区' },
+        { title: '17173影视' },
+        { title: '17173视频' },
+        { title: '新页游 · 开测 · 开服' },
+      ],
+    }
+  },
 }
 </script>
 <style>
 .home {
+  width: 1536px;
   margin: 0 auto;
-  padding: 0 14.5%;
-  min-width: 1170px;
+  padding: 0;
+  min-width: 1380px;
   box-sizing: border-box;
+}
+
+.pd_14 {
+  padding: 0 14.5%;
 }
 
 .login_in_out_area {
@@ -89,9 +123,10 @@ export default {
 .search-bottom {
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
-.search-bottom-null{
+.search-bottom-null {
   margin-right: 8px;
 }
 
@@ -105,7 +140,10 @@ export default {
   text-indent: 0.7em;
   border: 1px solid rgb(255, 205, 0);
 }
-.par-input input::placeholder{color:  #cccecb;} 
+
+.par-input input::placeholder {
+  color: #cccecb;
+}
 
 .search_icon {
   width: 32px;
@@ -139,5 +177,92 @@ export default {
 
 .search-area-right {
   cursor: pointer;
+}
+
+.under-line {
+  border-bottom: 3px solid #f3cb2e;
+  padding: 0;
+}
+
+.nav-list {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+}
+
+
+.nav {
+  float: left;
+  margin-right: 25px;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #3b4745;
+  cursor: pointer;
+  position: relative;
+}
+
+.list {
+  margin-left: 20px;
+}
+
+.nav::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  top: 28px;
+  height: 2px;
+  background-color: #fc2f70;
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav:hover {
+  color: #fc2f70;
+  text-decoration: red;
+}
+
+.nav:hover::before {
+  transform: translate(-50%, 0) scaleX(1);
+}
+
+.num {
+  position: absolute;
+  top: 3px;
+  left: 63px;
+  width: 20px;
+  font: bold 12px/12px SimSun, sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #ff5c00;
+  border-radius: 6px 6px 6px 0;
+}
+
+.position-rla{
+  position: relative;
+}
+
+.nav-right{
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-5 {
+  margin-left: 5px;
 }
 </style>
