@@ -112,8 +112,201 @@
               <div v-for="(titItem, index) in tit" :key="index">{{ titItem.name }}</div>
             </div>
           </div>
+          <div class="first-rows">
+            <div class="tit">爆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;款</div>
+            <div class="tit-name">
 
+              <div style="padding:5px 2px; background-color: #fd5600; color: #fff;">开局召火凤</div>
+              <div>流放之路</div>
+              <div>传奇3</div>
+              <div>失落的方舟</div>
+              <div>神佑释放</div>
+              <div style="font-size:15px; color: #ff5c00; font-weight: 900;">1.76上班族高爆传奇</div>
+              <div>永恒之塔</div>
+              <div style="color:#ff5c00">天龙八部荣耀版</div>
+              <div>元神</div>
+              <div>逆水寒</div>
+              <div>最终幻想14</div>
+
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">玩家好评</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit1" :key="index">{{ titItem.title }}</div>
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">晚回青春</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit" :key="index">{{ titItem.name }}</div>
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">近期可玩</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit2" :key="index">{{ titItem.title }}</div>
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">即将上线</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit" :key="index">{{ titItem.name }}</div>
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit" :key="index">{{ titItem.name }}</div>
+            </div>
+          </div>
+          <div class="first-rows">
+            <div class="tit">页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游</div>
+            <div class="tit-name">
+              <div v-for="(titItem, index) in tit" :key="index">{{ titItem.name }}</div>
+            </div>
+          </div>
         </div>
+        <img src="@/assets/lm-0728-1100x120.jpg">
+        <div class="main-first">
+          <div class="main-first-picture">
+            <img src="@/assets/ESKdjYbqjbgsDep.jpg" alt="">
+            <div class="hd">
+              <h3 class="tit2">
+                <div class="tit2">
+                  <div class="ico-tit-line"></div>
+                  <a href="">游戏视频</a>
+                  <img src="@/assets/app2021-ico-phone.png" alt="">
+                  <a href="" style="font-size:13px">APP看视频更方便</a>
+                </div>
+                <div style="font-size:12px">
+                  更多视频》
+                </div>
+              </h3>
+            </div>
+            <div class="grid-gap">
+               <div>
+              <img src="@/assets/TEEVD.jpg" alt="">
+            </div>
+            <div>
+              <img src="@/assets/HKYTO.jpg" alt="">
+            </div>
+            <div>
+              <img src="@/assets/mlGYrWb.jpg" alt="">
+            </div>
+            <div>
+              <img src="@/assets/gyYiIPb.jpg" alt="">
+            </div>
+            </div>
+           
+          </div>
+          <div></div>
+          <div>sdafsadf</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-first-row">
+          <div class="footer-content-first-row">
+            <h3 class="tit1">
+              <div class="ico-tit-line"></div>
+              <a href="">17173最新动态：</a>
+            </h3>
+            <div class="tit1">·</div>
+            <div class="tit1">
+              <a href="">17173全程报道2021年ChinaJoy</a>
+            </div>
+          </div>
+          <div class="search">
+            <div class="search-top">
+              <div class="par-input"><input type="text" class="search-top-left" placeholder="梦幻西游"></div>
+              <div class="search-top-right">
+                <img src="@/assets/搜索.png" alt="" class="search_icon">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="footer-second-row">
+            <p>
+              <a href="">关于17173</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">家长监护</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">人才招聘</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">广告服务</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">商务洽谈</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">联系方式</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">客服中心</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">友情链接</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">版权保护投诉指引</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">隐私政策</a>
+              <span class="ml-10">|</span>
+            </p>
+            <p>
+              <span>Copyright © 2001-2022 17173. All rights reserved. 北京智汇游信息技术有限公司</span>
+              <span class="ml-10">|</span>
+              <span class="ml-10">京ICP证140516号</span>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">京ICP备14014454号-1</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">工业和信息化部备案管理系统网址</a>
+            </p>
+            <p>
+              <a href="">京网文[2021]3682-980号</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">互联网出版许可证</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">信息网络传播视听节目许可证</a>
+              <span class="ml-10">|</span>
+              <img src="@/assets/beian-icon.png" alt="" class="img-style ml-10">
+              <a href="">闽公网安备 35010002000107</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">广播电视节目制作经营许可证 (京)字第10528号</a>
+            </p>
+            <p>
+              <span>违法和不良信息举报电话：0591-88500579</span>
+              <span class="ml-10">|</span>
+              <span class="ml-10">举报邮箱：</span>
+              <a href="" class="ml-10">17173jubao@cyou-inc.com</a>
+              <span class="ml-10">|</span>
+              <a href="" class="ml-10">未成年人专用投诉举报邮箱：</a>
+            </p>
+            <p>
+              <span>健康游戏公告：抵制不良游戏</span>
+              <span class="ml-20">拒绝盗版游戏</span>
+              <span class="ml-20">注意自我保护</span>
+              <span class="ml-20">谨防受骗上当</span>
+              <span class="ml-20">适度游戏益脑</span>
+              <span class="ml-20">沉迷游戏伤身</span>
+              <span class="ml-20">合理安排时间</span>
+              <span class="ml-20">享受健康生活</span>
+            </p>
+            <p>
+              <img src="@/assets/logo-f-cert.png">
+              <img src="@/assets/logo-f-xin.png" class="ml-10" alt="">
+              <img src="@/assets/cert-cyberpolice.png" class="ml-10" alt="">
+            </p>
+          </div>
+          <div class="footer-right">
+            <div>
+              <img src="@/assets/微信.png" width="36px" height="36px" class="ml-20">
+              <div class="triangle"></div>
+              <img src="@/assets/app2021-logo-bot.png" class="ml-10">
+            </div>
+            <img src="@/assets/code-114x114.png" class="ml-20 qr-code" alt="">
+            <div class="text">关注17173微信</div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -168,6 +361,41 @@ export default {
         { name: '剑网3' },
         { name: '英雄联盟' },
         { name: '新天龙八部' },
+      ],
+      tit1: [
+        { title: "暗黑·永恒不朽" },
+        { title: "镇魂街·天生为王" },
+        { title: "梦幻新诛仙" },
+        { title: "宝可梦大集结" },
+        { title: "剑网3缘起" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+      ],
+      tit2: [
+        { title: "暗黑·永恒不朽" },
+        { title: "镇魂街·天生为王" },
+        { title: "梦幻新诛仙" },
+        { title: "宝可梦大集结" },
+        { title: "剑网3缘起" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "剑网3缘起" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "剑网3缘起" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
+        { title: "暗黑·永恒不朽" },
       ]
     }
   },
@@ -184,6 +412,14 @@ export default {
 
 .pd_14 {
   padding: 0 14%;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
 }
 
 .login_in_out_area {
@@ -531,8 +767,9 @@ export default {
   padding: 7px 1%;
 }
 
-.first-rows{
+.first-rows {
   display: flex;
+  margin: 3px 0;
 }
 
 .tit {
@@ -540,6 +777,7 @@ export default {
   font-weight: 900;
   color: #0069b9;
   font-size: 12px;
+  width: 52px;
 }
 
 .tit-name {
@@ -547,6 +785,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   font-size: 12px;
+  width: 100%;
 }
 
 .flex-center {
@@ -560,5 +799,132 @@ export default {
 
 .ml-5 {
   margin-left: 5px;
+}
+
+.footer {
+  background-color: rgb(51, 51, 51);
+  padding: 20px 14% 35px 14%;
+  margin-top: 40px;
+  position: relative;
+  top: 1100px;
+  /* position: fixed; */
+  /* bottom: 1px; */
+}
+
+.ico-tit-line {
+  width: 3px;
+  height: 14px;
+  background: #ffcd00;
+  margin-right: 10px;
+}
+
+.tit1 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.tit1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+.tit2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tit2 a {
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+.grid-gap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.main-first {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.main-first-picture {
+  margin-right: 20px;
+}
+
+
+.footer-content-first-row {
+  display: flex;
+}
+
+.footer-first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #3f3f3f;
+  height: 42px;
+}
+
+.footer-second-row {
+  font-size: 12px;
+}
+
+.footer-second-row a {
+  color: #8c8984;
+  text-decoration: none;
+}
+
+.footer-second-row span {
+  color: #8c8984;
+}
+
+.img-style {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 6px dashed transparent;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  position: absolute;
+  left: 20%;
+  margin-left: -6px;
+  top: 35px;
+}
+
+.footer-right {
+  position: relative;
+}
+
+.qr-code {
+  display: block;
+  position: relative;
+  top: 7px;
+  border: 2px solid #fff;
+}
+
+.text {
+  padding: 10px 0px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 8px;
+  padding-left: 37px;
 }
 </style>
